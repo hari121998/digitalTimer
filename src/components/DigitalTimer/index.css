@@ -4,3 +4,114 @@
   height: 100vh;
   padding: 10px;
 }
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.set-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bg-image-container {
+  margin-right: 50px;
+  background-position: center;
+  background-image: URL('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 360px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-time-container {
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 60px;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+.count-time {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.time-status {
+  color: #0f172a;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.reset-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-pause-icon {
+  width: 30px;
+}
+
+.status-name {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+
+  margin-right: 20px;
+}
+.timer-btn {
+  background: transparent;
+  border: 0px solid;
+  cursor: pointer;
+  outline: none;
+}
+
+.set-timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer-limit-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.increment-decrement {
+  display: flex;
+  flex-direction: row;
+}
+.inc-dec-btn {
+  color: #0f172a;
+  background: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.num-btn {
+  background: linear-gradient(to right, #cffcf1, #00d9f5);
+  border: 0px solid;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 5px;
+  width: 70px;
+  color: #0f172a;
+  font-size: 20px;
+}
